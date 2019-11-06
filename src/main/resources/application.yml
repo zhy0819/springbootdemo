@@ -1,0 +1,32 @@
+#DB Configration
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/homework?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+#Redis
+  redis:
+    host: 192.168.248.59
+    port: 6379
+
+
+userbody:
+  name: �����
+  password: 123456
+  birthday: 1999.03.19
+  mobile: 17734146759
+  address: �����г�����
+
+#server:
+#  port: 8888
+#  servlet:
+#    context-path: /java0708
+#offcn_ip: 1.1.1.1
+#offcn_port: 9999
+#web.upload-path=E:\\pic\\
+#spring.mvc.static-path-pattern=/**
